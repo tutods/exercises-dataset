@@ -56,3 +56,7 @@ python3 scripts/3_apply.py --check      # verify — this is the test suite
 - **Preferred translation path: the assistant translates directly** (chunk by chunk from `scripts/chunks/`, glossary-pinned) — never pull another model (ollama etc.) or call a paid API for work you can do yourself. This was corrected explicitly.
 - Media is © Gym visual with its own license terms (see LICENSE/NOTICE.md) — data is MIT, media is not.
 - Upstream is `hasaneyldrm/exercises-dataset`; `origin` is the `tutods` fork. The end goal of local work is an upstream PR, so keep the diff minimal and PR-shaped (like the French PR `6f3031b`).
+
+## AI Tooling
+
+The `web-quality-skills` Claude Code plugin is committed in `.claude/settings.json`; personal overrides go in `.claude/settings.local.json` (gitignored). Keep both out of upstream PRs — they're fork-only files.

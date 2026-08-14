@@ -4,5 +4,5 @@ __pycache__/
 .venv/
 *.zip
 
-# Claude Code local settings (do not publish)
-.claude/
+# Claude Code local settings (do not publish) — settings.json itself is committed
+.claude/settings.local.json
